@@ -3,3 +3,11 @@ background: #000046;
 background: -webkit-linear-gradient(to right, #000, #000046); 
 background: linear-gradient(to right, #000, #000046);
 }
+.btn-primary:hover{
+    background-color: rgb(14, 14, 14);
+    color:#007bff;
+}
+.btn-success:hover{
+    background-color: rgb(14, 14, 14);
+    color: #28a745;
+}

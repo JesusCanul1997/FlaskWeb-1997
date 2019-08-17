@@ -1,5 +1,5 @@
-from flask import Flask, render_template
-#importacion de flask y la funcionalidad template
+from flask import Flask
+from flask import render_template #funcionalidad template
 
 #render_template me ayuda a obtener las paginas de la carpeta templates
 app = Flask(__name__)
