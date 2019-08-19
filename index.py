@@ -24,6 +24,6 @@ def contacto():
     #desplega el contenido de la pagina web contacto.html
     return render_template('contacto.html')
 
-if __name__ =='__main__':
+if __name__=='__main__':
     #se encarga de ejecutar el servidor
     app.run(debug=True)
