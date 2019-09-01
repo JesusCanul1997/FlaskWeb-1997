@@ -1,22 +1,24 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} 
 
 {% block content2 %}
-<title>Diseños-JECKA1997</title>  
+<title>Diseños-JECKA1997</title>
+{% endblock %} 
+
+{% block itenNav %}
+<li class="nav-item">
+  <a class="nav-link" href="/">Inicio</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link active" href="{{ url_for('diseños') }}">Diseños</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="{{ url_for('acerca') }}">Acerca</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
+</li>
 {% endblock %}
 
 {% block cuerpo %}
-    <div class="jumbotron">
-        <div class="row">
-            <div class="align-content-center">    
-                <h4 class="display-4 pb-1">Explora nuestros diseños</h4>
-                <p class="lead">Desarrollo web para el aprendizaje personal</p>
-                <hr class="my-4 ml-0">
-                <p class="my-3">Explora mas de  nuestro trabajo de desarrollo web con python utilizando el framework flask.</p>
-                <a class="mx-2 my-3 btn btn-primary btn-lg" href="#">Iniciar sesion</a>
-                <a class="mx-2 my-3 btn btn-success btn-lg" href="#" >Registrame</a></div>
-            <div>
-                <img class="mx-md-5 my-2" src="{{url_for('static', filename='images/home.gif')}}" width="320px" height="280px">
-            </div>
-        </div>
-    </div>
+<p>hh</p>
 {% endblock %}

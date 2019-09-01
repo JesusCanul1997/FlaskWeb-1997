@@ -3,6 +3,9 @@ html {
 body{
   background-color:#fff;
 }
+.container{
+  padding: 0;
+}
 /* Clases de navegacion en layout*/
 .btn-primary:hover{
     background-color: rgb(14, 14, 14);

@@ -1,7 +1,19 @@
 {% extends "layout.html" %}
 
 {% block content2 %}
-<title>Contacto-JECKA1997</title>  
+    <title>Contacto-JECKA1997</title>  
+{% endblock %}
+
+{% block itenNav %}
+    <li class="nav-item">
+        <a class="nav-link" href="/" >Inicio</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{url_for('acerca')}}">Acerca</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="{{url_for('contacto')}}">Contacto</a>
+    </li>	
 {% endblock %}
 
 {% block cuerpo %}
@@ -15,7 +27,7 @@
                 <a class="mx-2 my-3 btn btn-primary btn-lg" href="#">Iniciar sesion</a>
                 <a class="mx-2 my-3 btn btn-success btn-lg" href="#" >Registrame</a></div>
             <div>
-                <img class="mx-md-5 my-2" src="{{url_for('static', filename='images/home.gif')}}" width="330px" height="270px">
+                <img class="mx-md-5 my-2" src="{{url_for('static', filename='images/home.gif')}}" width="300px" height="270px">
             </div>
         </div>
     </div>
