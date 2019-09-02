@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+	
   <head>
 	<!-- Required meta tags always come first -->
 	<meta charset="utf-8">
@@ -39,14 +40,19 @@
 			</nav>
 		</header>
 
-	<div class="container my-3">
-	{% block cuerpo %}
-	{% endblock %}
+	<div class="container">
+		{% block cuerpo %}
+		{% endblock %}
 	</div> 
+	<div class="contain">
+		{% block cuerpo2 %}
+		{% endblock %}
+	</div>
 
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
 	<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
 	<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
 
   </body>
+
 </html>

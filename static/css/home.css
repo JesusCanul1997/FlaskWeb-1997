@@ -1,5 +1,7 @@
 html {
-  font-size: 15px; }
+  font-size: 15px; 
+  padding: 0px;
+}
 body{
   background-color:#fff;
 }
@@ -16,7 +18,7 @@ body{
   color: #28a745;
 }
 .navbar-fixed-top {
-  background: rgba(3, 3, 3, 0.85); 
+  background: rgba(3, 3, 3, 0.95); 
   margin:0px;
   border:none;
   padding:0px;
@@ -66,9 +68,9 @@ font-weight:300px;
 }
 .home-img{
   background-image: url(../images/home.gif);
-  width:100vh;
-  height: 60vh;
-  padding: 0; 
+  width: 100vh;
+  height: 50vh;
+  padding: 0;
 }
 hr{
   margin: 2px #fff;
@@ -82,6 +84,9 @@ hr{
 
   #menuprincipal {
     clear: inherit; 
+  }
+  .home-img{
+    margin-top: 5rem; 
   }
 
 }

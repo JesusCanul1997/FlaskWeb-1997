@@ -1,10 +1,11 @@
-{% extends "layout.html" %} 
-
-{% block content2 %}
+{% extends "layout.html" %} {% block content2 %}
 <title>Diseños-JECKA1997</title>
-{% endblock %} 
-
-{% block itenNav %}
+<!-- Estilos personalizados para deseños.html-->
+<link
+  rel="stylesheet"
+  href="{{url_for('static', filename='css/disenos.css')}}"
+/>
+{% endblock %} {% block itenNav %}
 <li class="nav-item">
   <a class="nav-link" href="/">Inicio</a>
 </li>
@@ -17,8 +18,55 @@
 <li class="nav-item">
   <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
 </li>
-{% endblock %}
+{% endblock %} 
+{% block cuerpo2 %}
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'p')">.</button>
+  <button class="tablinks" onclick="openTab(event, 'a1')" id="defaultOpen">Botones Dark</button>
+  <button class="tablinks" onclick="openTab(event, 'a2')">Botones wtf</button>
+  <button class="tablinks" onclick="openTab(event, 'a3')">Botones wtf</button>
+</div>
 
-{% block cuerpo %}
-<p>hh</p>
+<div id="a1" class="tabcontent text-xs-center">
+  <h3>DARK BUTTON</h3>
+   <div class="row">
+    <div class="col-md-4">
+      <p>Hola</p>
+    </div>
+    <div class="col-md-4">
+      <p>Hola</p>
+    </div>
+    <div class="col-md-4">
+      <p>Hola</p>
+    </div>
+</div>
+</div>
+
+<div id="a2" class="tabcontent">
+  <h3>Animacion 2</h3>
+</div>
+
+<div id="a3" class="tabcontent">
+  <h3>Animacion 3</h3>
+</div>
+
+<!--escript para busqueda de opciones-->
+<script>
+  function openTab(evt, Name) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace("active", "");
+    }
+    document.getElementById(Name).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+</script>
 {% endblock %}
