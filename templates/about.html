@@ -1,5 +1,37 @@
 {% extends "layout.html" %}
 
-{% block content %}
-<h1>Bienvenido  JECKA1997</h1>
+{% block content2 %}
+<title>About-JECKA1997</title>
+{% endblock %}
+
+{% block itenNav %}
+<li class="nav-item">
+    <a class="nav-link" href="/">Inicio</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link active" href="{{url_for('acerca')}}">Acerca</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('contacto')}}">Contacto</a>
+</li>
+{% endblock %}
+
+{% block cuerpo %}
+<div class="jumbotron">
+    <div class="row">
+        <div class="align-content-center">
+            <h3 class=" display-4 pb-2">JECKA1997.COM</h3>
+            <p class="lead">Organizacion web dirigida por jesus canul jecka</p>
+            <hr class="my-4 ml-0">
+            <p class="my-3">El aprendizaje es la base del exito a futuro, JECKA1997.COM es la iniciativa de
+                emprendimiento.</p>
+            <a class="mx-2 my-3 btn btn-primary btn-lg" href="#">Iniciar sesion</a>
+            <a class="mx-2 my-3 btn btn-success btn-lg" href="#">Registrame</a>
+        </div>
+        <div>
+            <img class="mx-md-5 my-2" src="{{url_for('static', filename='images/escorpion-logo.ico')}}" width="300px"
+                height="280px">
+        </div>
+    </div>
+</div>
 {% endblock %}

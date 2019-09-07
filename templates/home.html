@@ -1,11 +1,38 @@
 {% extends "layout.html" %}
 
-{% block content %}
-    <div class="jumbotron">
-    <h3 class="display-4">Bienvenido a JECKA1997</h3>
-    <p class="lead">Desarrollo web para el aprendizaje personal</p>
-    <hr class="my-4">
-    <p>Explora mas de  nuestro trabajo de desarrollo web con python utilizando el framework flask.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Aprende Mas</a>
+{% block content2 %}
+<title>JECKA1997</title>
+{% endblock %}
+
+{% block itenNav %}
+<li class="nav-item">
+    <a class="nav-link active" href="/">Inicio</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('acerca')}}">Acerca</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('contacto')}}">Contacto</a>
+</li>
+{% endblock %}
+
+{% block cuerpo %}
+
+<div class="row mt-3">
+    <div class="col-md-8 home-text">
+        <div class="text-xs-center">
+            <h1 class="display-4 py-3">BIENVENIDOS A JECKA1997</h1>
+            <p class="lead">Organizacion web dirigida por jesus canul jecka</p>
+            <hr class="my-4 ml-0">
+            <p class="my-3">El aprendizaje es la base del exito a futuro, JECKA1997.COM es la iniciativa de
+                emprendimiento.</p>
+            <a class="mx-2 my-2 btn btn-primary btn-lg" href="{{url_for('diseños')}}">Iniciar sesion</a>
+            <a class="my-2 btn btn-success btn-lg" href="#">Registrame</a>
+        </div>
     </div>
+    <div class="col-md-4 home-img mx-auto">
+        <!--imagen definia en CSS por la clase .home-img -->
+    </div>
+</div>
+
 {% endblock %}
