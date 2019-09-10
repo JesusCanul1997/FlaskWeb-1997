@@ -1,0 +1,555 @@
+/* Margen para los botones */
+
+#a1 button {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 165px;
+}
+
+
+/* Boton Default */
+
+.a1-bck {
+    background-color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.a1-bck:hover {
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*Fila 1*/
+
+
+/* Boton 1-1 */
+
+.a1-1-1 {
+    color: rgb(255, 128, 128);
+    border: 2px solid rgb(255, 128, 128);
+}
+
+.a1-1-1:hover {
+    color: black;
+    background-color: rgb(255, 128, 128);
+}
+
+
+/* Boton 1-2 */
+
+.a1-1-2 {
+    color: rgb(255, 255, 128);
+    border: 2px solid rgb(255, 255, 128);
+}
+
+.a1-1-2:hover {
+    color: black;
+    background-color: rgb(255, 255, 128);
+}
+
+
+/* Boton 1-3 */
+
+.a1-1-3 {
+    color: rgb(128, 255, 128);
+    border: 2px solid rgb(128, 255, 128);
+}
+
+.a1-1-3:hover {
+    color: black;
+    background-color: rgb(128, 255, 128);
+}
+
+
+/* Boton 1-4 */
+
+.a1-1-4 {
+    color: rgb(128, 255, 128);
+    border: 2px solid rgb(128, 255, 128);
+}
+
+.a1-1-4:hover {
+    color: black;
+    background-color: rgb(128, 255, 128);
+}
+
+
+/* Boton 1-5 */
+
+.a1-1-5 {
+    color: rgb(128, 255, 255);
+    border: 2px solid rgb(128, 255, 255);
+}
+
+.a1-1-5:hover {
+    color: black;
+    background-color: rgb(128, 255, 255);
+}
+
+
+/* Boton 1-6 */
+
+.a1-1-6 {
+    color: rgb(0, 128, 255);
+    border: 2px solid rgb(0, 128, 255);
+}
+
+.a1-1-6:hover {
+    color: black;
+    background-color: rgb(0, 128, 255);
+}
+
+
+/* Boton 1-7 */
+
+.a1-1-7 {
+    color: rgb(255, 128, 192);
+    border: 2px solid rgb(255, 128, 192);
+}
+
+.a1-1-7:hover {
+    color: black;
+    background-color: rgb(255, 128, 192);
+}
+
+
+/* Boton 1-8 */
+
+.a1-1-8 {
+    color: rgb(255, 128, 255);
+    border: 2px solid rgb(255, 128, 255);
+}
+
+.a1-1-8:hover {
+    color: black;
+    background-color: rgb(255, 128, 255);
+}
+
+
+/* Boton 1-9 */
+
+.a1-1-9 {
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.a1-1-9:hover {
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* Boton 1-10 */
+
+.a1-1-10 {
+    color: rgb(255, 255, 0);
+    border: 2px solid rgb(255, 255, 0);
+}
+
+.a1-1-10:hover {
+    color: black;
+    background-color: rgb(255, 255, 0);
+}
+
+
+/* fila 2 */
+
+
+/* Boton 2-1 */
+
+.a1-2-1 {
+    color: rgb(128, 255, 0);
+    border: 2px solid rgb(128, 255, 0);
+}
+
+.a1-2-1:hover {
+    color: black;
+    background-color: rgb(128, 255, 0);
+}
+
+
+/* Boton 2-2 */
+
+.a1-2-2 {
+    color: rgb(0, 255, 64);
+    border: 2px solid rgb(0, 255, 64);
+}
+
+.a1-2-2:hover {
+    color: black;
+    background-color: rgb(0, 255, 64);
+}
+
+
+/* Boton 2-3 */
+
+.a1-2-3 {
+    color: rgb(0, 255, 255);
+    border: 2px solid rgb(0, 255, 255);
+}
+
+.a1-2-3:hover {
+    color: black;
+    background-color: rgb(0, 255, 255);
+}
+
+
+/* Boton 2-4 */
+
+.a1-2-4 {
+    color: rgb(0, 128, 192);
+    border: 2px solid rgb(0, 128, 192);
+}
+
+.a1-2-4:hover {
+    color: black;
+    background-color: rgb(0, 128, 192);
+}
+
+
+/* Boton 2-5 */
+
+.a1-2-5 {
+    color: rgb(128, 128, 192);
+    border: 2px solid rgb(128, 128, 192);
+}
+
+.a1-2-5:hover {
+    color: black;
+    background-color: rgb(128, 128, 192);
+}
+
+
+/* Boton 2-6 */
+
+.a1-2-6 {
+    color: rgb(255, 0, 255);
+    border: 2px solid rgb(255, 0, 255);
+}
+
+.a1-2-6:hover {
+    color: black;
+    background-color: rgb(255, 0, 255);
+}
+
+
+/* Boton 2-7 */
+
+.a1-2-7 {
+    color: rgb(128, 64, 64);
+    border: 2px solid rgb(128, 64, 64);
+}
+
+.a1-2-7:hover {
+    color: black;
+    background-color: rgb(128, 64, 64);
+}
+
+
+/* Boton 2-8 */
+
+.a1-2-8 {
+    color: rgb(255, 128, 64);
+    border: 2px solid rgb(255, 128, 64);
+}
+
+.a1-2-8:hover {
+    color: black;
+    background-color: rgb(255, 128, 64);
+}
+
+
+/* Boton 2-9 */
+
+.a1-2-9 {
+    color: rgb(0, 255, 0);
+    border: 2px solid rgb(0, 255, 0);
+}
+
+.a1-2-9:hover {
+    color: black;
+    background-color: rgb(0, 255, 0);
+}
+
+
+/* Boton 2-10 */
+
+.a1-2-10 {
+    color: rgb(0, 128, 128);
+    border: 2px solid rgb(0, 128, 128);
+}
+
+.a1-2-10:hover {
+    color: black;
+    background-color: rgb(0, 128, 128);
+}
+
+
+/* Fila 3 */
+
+
+/* Boton 3-1*/
+
+.a1-3-1 {
+    color: rgb(0, 64, 128);
+    border: 2px solid rgb(0, 64, 128);
+}
+
+.a1-3-1:hover {
+    color: black;
+    background-color: rgb(0, 64, 128);
+}
+
+
+/* Boton 3-2*/
+
+.a1-3-2 {
+    color: rgb(128, 128, 255);
+    border: 2px solid rgb(128, 128, 255);
+}
+
+.a1-3-2:hover {
+    color: black;
+    background-color: rgb(128, 128, 255);
+}
+
+
+/* Boton 3-3*/
+
+.a1-3-3 {
+    color: rgb(128, 0, 64);
+    border: 2px solid rgb(128, 0, 64);
+}
+
+.a1-3-3:hover {
+    color: black;
+    background-color: rgb(128, 0, 64);
+}
+
+
+/* Boton 3-4*/
+
+.a1-3-4 {
+    color: rgb(255, 0, 128);
+    border: 2px solid rgb(255, 0, 128);
+}
+
+.a1-3-4:hover {
+    color: black;
+    background-color: rgb(255, 0, 128);
+}
+
+
+/* Boton 3-5*/
+
+.a1-3-5 {
+    color: rgb(128, 0, 0);
+    border: 2px solid rgb(128, 0, 0);
+}
+
+.a1-3-5:hover {
+    color: black;
+    background-color: rgb(128, 0, 0);
+}
+
+
+/* Boton 3-6*/
+
+.a1-3-6 {
+    color: rgb(255, 128, 0);
+    border: 2px solid rgb(255, 128, 0);
+}
+
+.a1-3-6:hover {
+    color: black;
+    background-color: rgb(255, 128, 0);
+}
+
+
+/* Boton 3-7*/
+
+.a1-3-7 {
+    color: rgb(0, 128, 0);
+    border: 2px solid rgb(0, 128, 0);
+}
+
+.a1-3-7:hover {
+    color: black;
+    background-color: rgb(0, 128, 0);
+}
+
+
+/* Boton 3-8*/
+
+.a1-3-8 {
+    color: rgb(0, 128, 64);
+    border: 2px solid rgb(0, 128, 64);
+}
+
+.a1-3-8:hover {
+    color: black;
+    background-color: rgb(0, 128, 64);
+}
+
+
+/* Boton 3-9*/
+
+.a1-3-9 {
+    color: rgb(0, 0, 255);
+    border: 2px solid rgb(0, 0, 255);
+}
+
+.a1-3-9:hover {
+    color: black;
+    background-color: rgb(0, 0, 255);
+}
+
+
+/* Boton 3-10*/
+
+.a1-3-10 {
+    color: rgb(0, 0, 160);
+    border: 2px solid rgb(0, 0, 160);
+}
+
+.a1-3-10:hover {
+    color: black;
+    background-color: rgb(0, 0, 160);
+}
+
+
+/* fila 4 */
+
+
+/* Boton 4-1*/
+
+.a1-4-1 {
+    color: rgb(128, 0, 128);
+    border: 2px solid rgb(128, 0, 128);
+}
+
+.a1-4-1:hover {
+    color: black;
+    background-color: rgb(128, 0, 128);
+}
+
+
+/* Boton 4-2*/
+
+.a1-4-2 {
+    color: rgb(128, 0, 255);
+    border: 2px solid rgb(128, 0, 255);
+}
+
+.a1-4-2:hover {
+    color: black;
+    background-color: rgb(128, 0, 255);
+}
+
+
+/* Boton 4-3*/
+
+.a1-4-3 {
+    color: rgb(64, 0, 0);
+    border: 2px solid rgb(64, 0, 0);
+}
+
+.a1-4-3:hover {
+    color: black;
+    background-color: rgb(64, 0, 0);
+}
+
+
+/* Boton 4-4*/
+
+.a1-4-4 {
+    color: rgb(128, 64, 0);
+    border: 2px solid rgb(128, 64, 0);
+}
+
+.a1-4-4:hover {
+    color: black;
+    background-color: rgb(128, 64, 0);
+}
+
+
+/* Boton 4-5*/
+
+.a1-4-5 {
+    color: rgb(0, 64, 0);
+    border: 2px solid rgb(0, 64, 0);
+}
+
+.a1-4-5:hover {
+    color: black;
+    background-color: rgb(0, 64, 0);
+}
+
+
+/* Boton 4-6*/
+
+.a1-4-6 {
+    color: rgb(0, 64, 64);
+    border: 2px solid rgb(0, 64, 64);
+}
+
+.a1-4-6:hover {
+    color: black;
+    background-color: rgb(0, 64, 64);
+}
+
+
+/* Boton 4-7*/
+
+.a1-4-7 {
+    color: rgb(0, 0, 128);
+    border: 2px solid rgb(0, 0, 128);
+}
+
+.a1-4-7:hover {
+    color: black;
+    background-color: rgb(0, 0, 128);
+}
+
+
+/* Boton 4-8*/
+
+.a1-4-8 {
+    color: rgb(0, 0, 64);
+    border: 2px solid rgb(0, 0, 64);
+}
+
+.a1-4-8:hover {
+    color: black;
+    background-color: rgb(0, 0, 64);
+}
+
+
+/* Boton 4-9*/
+
+.a1-4-9 {
+    color: rgb(64, 0, 64);
+    border: 2px solid rgb(64, 0, 64);
+}
+
+.a1-4-9:hover {
+    color: black;
+    background-color: rgb(64, 0, 64);
+}
+
+
+/* Boton 4-10*/
+
+.a1-4-10 {
+    color: rgb(64, 0, 128);
+    border: 2px solid rgb(64, 0, 128);
+}
+
+.a1-4-10:hover {
+    color: black;
+    background-color: rgb(64, 0, 128);
+}
