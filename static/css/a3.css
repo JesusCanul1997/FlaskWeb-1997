@@ -1,6 +1,6 @@
 /* Margen para los botones */
 
-#a1 button {
+#a2 button {
     margin-top: 6px;
     margin-bottom: 6px;
     width: 165px;
@@ -9,14 +9,14 @@
 
 /* Boton Default */
 
-.a1-bck {
-    background-color: #000;
+.a2-bck {
     font-size: 16px;
     font-weight: 400;
+    color: #FFF;
 }
 
-.a1-bck:hover {
-    color: #000;
+.a2-bck:hover {
+    background-color: #000;
     border: 2px solid#000;
     font-size: 16px;
     font-weight: 600;
@@ -28,25 +28,26 @@
 
 /* Boton 1-1 */
 
-.a1-1-1 {
-    color: #FF8080;
+.a2-1-1 {
+    background-color: #FF8080;
     border: 2px solid #FF8080;
 }
 
-.a1-1-1:hover {
-    color: black;
-    background-color: #FF8080;
+.a2-1-1:hover {
+    background-color: black;
+    border: 2px solid #FF8080;
+    color: #FF8080;
 }
 
 
 /* Boton 1-2 */
 
-.a1-1-2 {
+.a2-1-2 {
     color: #FFFF80;
     border: 2px solid#FFFF80;
 }
 
-.a1-1-2:hover {
+.a2-1-2:hover {
     color: black;
     background-color: #FFFF80;
 }
@@ -54,12 +55,12 @@
 
 /* Boton 1-3 */
 
-.a1-1-3 {
+.a2-1-3 {
     color: #80FF80;
     border: 2px solid #80FF80;
 }
 
-.a1-1-3:hover {
+.a2-1-3:hover {
     color: black;
     background-color: #80FF80;
 }
@@ -67,12 +68,12 @@
 
 /* Boton 1-4 */
 
-.a1-1-4 {
+.a2-1-4 {
     color: #00FF80;
     border: 2px solid #00FF80;
 }
 
-.a1-1-4:hover {
+.a2-1-4:hover {
     color: black;
     background-color: #00FF80;
 }
@@ -80,12 +81,12 @@
 
 /* Boton 1-5 */
 
-.a1-1-5 {
+.a2-1-5 {
     color: #80FFFF;
     border: 2px solid #80FFFF;
 }
 
-.a1-1-5:hover {
+.a2-1-5:hover {
     color: black;
     background-color: #80FFFF;
 }
@@ -93,12 +94,12 @@
 
 /* Boton 1-6 */
 
-.a1-1-6 {
+.a2-1-6 {
     color: #0080FF;
     border: 2px solid #0080FF;
 }
 
-.a1-1-6:hover {
+.a2-1-6:hover {
     color: black;
     background-color: #0080FF;
 }
@@ -106,12 +107,12 @@
 
 /* Boton 1-7 */
 
-.a1-1-7 {
+.a2-1-7 {
     color: #FF80C0;
     border: 2px solid #FF80C0;
 }
 
-.a1-1-7:hover {
+.a2-1-7:hover {
     color: black;
     background-color: #FF80C0;
 }
@@ -119,12 +120,12 @@
 
 /* Boton 1-8 */
 
-.a1-1-8 {
+.a2-1-8 {
     color: #FF80FF;
     border: 2px solid #FF80FF;
 }
 
-.a1-1-8:hover {
+.a2-1-8:hover {
     color: black;
     background-color: #FF80FF;
 }
@@ -132,12 +133,12 @@
 
 /* Boton 1-9 */
 
-.a1-1-9 {
+.a2-1-9 {
     color: #FF0000;
     border: 2px solid #FF0000;
 }
 
-.a1-1-9:hover {
+.a2-1-9:hover {
     color: black;
     background-color: #FF0000;
 }
@@ -145,12 +146,12 @@
 
 /* Boton 1-10 */
 
-.a1-1-10 {
+.a2-1-10 {
     color: #FFFF00;
     border: 2px solid #FFFF00;
 }
 
-.a1-1-10:hover {
+.a2-1-10:hover {
     color: black;
     background-color: #FFFF00;
 }
@@ -161,7 +162,7 @@
 
 /* Boton 2-1 */
 
-.a1-2-1 {
+.a2-2-1 {
     color: #80FF00;
     border: 2px solid #80FF00;
 }
@@ -174,12 +175,12 @@
 
 /* Boton 2-2 */
 
-.a1-2-2 {
+.a2-2-2 {
     color: #00FF40;
     border: 2px solid #00FF40;
 }
 
-.a1-2-2:hover {
+.a2-2-2:hover {
     color: black;
     background-color: #00FF40;
 }
@@ -187,12 +188,12 @@
 
 /* Boton 2-3 */
 
-.a1-2-3 {
+.a2-2-3 {
     color: #00FFFF;
     border: 2px solid #00FFFF;
 }
 
-.a1-2-3:hover {
+.a2-2-3:hover {
     color: black;
     background-color: #00FFFF;
 }
@@ -200,12 +201,12 @@
 
 /* Boton 2-4 */
 
-.a1-2-4 {
+.a2-2-4 {
     color: #0080C0;
     border: 2px solid #0080C0;
 }
 
-.a1-2-4:hover {
+.a2-2-4:hover {
     color: black;
     background-color: #0080C0;
 }
@@ -213,12 +214,12 @@
 
 /* Boton 2-5 */
 
-.a1-2-5 {
+.a2-2-5 {
     color: #8080C0;
     border: 2px solid #8080C0;
 }
 
-.a1-2-5:hover {
+.a2-2-5:hover {
     color: black;
     background-color: #8080C0;
 }
@@ -226,7 +227,7 @@
 
 /* Boton 2-6 */
 
-.a1-2-6 {
+.a2-2-6 {
     color: #FF00FF;
     border: 2px solid #FF00FF;
 }
@@ -239,12 +240,12 @@
 
 /* Boton 2-7 */
 
-.a1-2-7 {
+.a2-2-7 {
     color: #804040;
     border: 2px solid #804040;
 }
 
-.a1-2-7:hover {
+.a2-2-7:hover {
     color: black;
     background-color: #804040;
 }
@@ -252,12 +253,12 @@
 
 /* Boton 2-8 */
 
-.a1-2-8 {
+.a2-2-8 {
     color: #FF8040;
     border: 2px solid #FF8040;
 }
 
-.a1-2-8:hover {
+.a2-2-8:hover {
     color: black;
     background-color: #FF8040;
 }
@@ -265,12 +266,12 @@
 
 /* Boton 2-9 */
 
-.a1-2-9 {
+.a2-2-9 {
     color: #00FF00;
     border: 2px solid #00FF00;
 }
 
-.a1-2-9:hover {
+.a2-2-9:hover {
     color: black;
     background-color: #00FF00;
 }
@@ -278,12 +279,12 @@
 
 /* Boton 2-10 */
 
-.a1-2-10 {
+.a2-2-10 {
     color: #008080;
     border: 2px solid #008080;
 }
 
-.a1-2-10:hover {
+.a2-2-10:hover {
     color: black;
     background-color: #008080;
 }
@@ -294,12 +295,12 @@
 
 /* Boton 3-1*/
 
-.a1-3-1 {
+.a2-3-1 {
     color: #004080;
     border: 2px solid #004080;
 }
 
-.a1-3-1:hover {
+.a2-3-1:hover {
     color: black;
     background-color: #004080;
 }
@@ -307,12 +308,12 @@
 
 /* Boton 3-2*/
 
-.a1-3-2 {
+.a2-3-2 {
     color: #8080FF;
     border: 2px solid #8080FF;
 }
 
-.a1-3-2:hover {
+.a2-3-2:hover {
     color: black;
     background-color: #8080FF;
 }
@@ -320,12 +321,12 @@
 
 /* Boton 3-3*/
 
-.a1-3-3 {
+.a2-3-3 {
     color: #800040;
     border: 2px solid #800040;
 }
 
-.a1-3-3:hover {
+.a2-3-3:hover {
     color: black;
     background-color: #800040;
 }
@@ -333,12 +334,12 @@
 
 /* Boton 3-4*/
 
-.a1-3-4 {
+.a2-3-4 {
     color: #FF0080;
     border: 2px solid #FF0080;
 }
 
-.a1-3-4:hover {
+.a2-3-4:hover {
     color: black;
     background-color: #FF0080;
 }
@@ -346,12 +347,12 @@
 
 /* Boton 3-5*/
 
-.a1-3-5 {
+.a2-3-5 {
     color: #800000;
     border: 2px solid #800000;
 }
 
-.a1-3-5:hover {
+.a2-3-5:hover {
     color: black;
     background-color: #800000;
 }
@@ -359,12 +360,12 @@
 
 /* Boton 3-6*/
 
-.a1-3-6 {
+.a2-3-6 {
     color: #FF8000;
     border: 2px solid #FF8000;
 }
 
-.a1-3-6:hover {
+.a2-3-6:hover {
     color: black;
     background-color: #FF8000;
 }
@@ -372,12 +373,12 @@
 
 /* Boton 3-7*/
 
-.a1-3-7 {
+.a2-3-7 {
     color: #008000;
     border: 2px solid #008000;
 }
 
-.a1-3-7:hover {
+.a2-3-7:hover {
     color: black;
     background-color: #008000;
 }
@@ -385,12 +386,12 @@
 
 /* Boton 3-8*/
 
-.a1-3-8 {
+.a2-3-8 {
     color: #008040;
     border: 2px solid #008040;
 }
 
-.a1-3-8:hover {
+.a2-3-8:hover {
     color: black;
     background-color: #008040;
 }
@@ -398,12 +399,12 @@
 
 /* Boton 3-9*/
 
-.a1-3-9 {
+.a2-3-9 {
     color: #0000FF;
     border: 2px solid #0000FF;
 }
 
-.a1-3-9:hover {
+.a2-3-9:hover {
     color: black;
     background-color: #0000FF;
 }
@@ -411,12 +412,12 @@
 
 /* Boton 3-10*/
 
-.a1-3-10 {
+.a2-3-10 {
     color: #0000A0;
     border: 2px solid #0000A0;
 }
 
-.a1-3-10:hover {
+.a2-3-10:hover {
     color: black;
     background-color: #0000A0;
 }
@@ -427,12 +428,12 @@
 
 /* Boton 4-1*/
 
-.a1-4-1 {
+.a2-4-1 {
     color: #800080;
     border: 2px solid #800080;
 }
 
-.a1-4-1:hover {
+.a2-4-1:hover {
     color: black;
     background-color: #800080;
 }
@@ -440,12 +441,12 @@
 
 /* Boton 4-2*/
 
-.a1-4-2 {
+.a2-4-2 {
     color: #8000FF;
     border: 2px solid #8000FF;
 }
 
-.a1-4-2:hover {
+.a2-4-2:hover {
     color: black;
     background-color: #8000FF;
 }
@@ -453,12 +454,12 @@
 
 /* Boton 4-3*/
 
-.a1-4-3 {
+.a2-4-3 {
     color: #400000;
     border: 2px solid #400000;
 }
 
-.a1-4-3:hover {
+.a2-4-3:hover {
     color: black;
     background-color: #400000;
 }
@@ -466,12 +467,12 @@
 
 /* Boton 4-4*/
 
-.a1-4-4 {
+.a2-4-4 {
     color: #804000;
     border: 2px solid #804000;
 }
 
-.a1-4-4:hover {
+.a2-4-4:hover {
     color: black;
     background-color: #804000;
 }
@@ -479,12 +480,12 @@
 
 /* Boton 4-5*/
 
-.a1-4-5 {
+.a2-4-5 {
     color: #004000;
     border: 2px solid #004000;
 }
 
-.a1-4-5:hover {
+.a2-4-5:hover {
     color: black;
     background-color: #004000;
 }
@@ -505,12 +506,12 @@
 
 /* Boton 4-7*/
 
-.a1-4-7 {
+.a2-4-7 {
     color: #000080;
     border: 2px solid #000080;
 }
 
-.a1-4-7:hover {
+.a2-4-7:hover {
     color: black;
     background-color: #000080;
 }
@@ -518,12 +519,12 @@
 
 /* Boton 4-8*/
 
-.a1-4-8 {
+.a2-4-8 {
     color: #000040;
     border: 2px solid #000040;
 }
 
-.a1-4-8:hover {
+.a2-4-8:hover {
     color: black;
     background-color: #000040;
 }
@@ -531,12 +532,12 @@
 
 /* Boton 4-9*/
 
-.a1-4-9 {
+.a2-4-9 {
     color: #400040;
     border: 2px solid #400040;
 }
 
-.a1-4-9:hover {
+.a2-4-9:hover {
     color: black;
     background-color: #400040;
 }
@@ -544,12 +545,12 @@
 
 /* Boton 4-10*/
 
-.a1-4-10 {
+.a2-4-10 {
     color: #400080;
     border: 2px solid #400080;
 }
 
-.a1-4-10:hover {
+.a2-4-10:hover {
     color: black;
     background: #400080;
 }
