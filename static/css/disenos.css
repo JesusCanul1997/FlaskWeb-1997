@@ -1,71 +1,82 @@
 .tab {
-  float: left;
-  border-right: 2px solid rgba(15, 2, 41, 0.351);
-  border-left: none;
-  background-color: #f1f1f1;
-  width: 14%;
-  height: 100vh;
+    float: left;
+    border-right: 2px solid rgba(15, 2, 41, 0.351);
+    border-left: none;
+    background-color: #f1f1f1;
+    width: 14%;
+    height: 100vh;
 }
+
 
 /* Style the buttons inside the tab */
+
 .tab button {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 8px 1px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.2s;
-  font-size: 14px;
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 8px 1px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 14px;
 }
+
 
 /* Change background color of buttons on hover */
+
 .tab button:hover {
-  background-color: #2a487e;
-  color: #fff;
+    background-color: #2a487e;
+    color: #fff;
 }
+
 
 /* Create an active/current "tab button" class */
+
 .tab button.active {
-  background-color: #2a487e;
-  color: #fff;
+    background-color: #2a487e;
+    color: #fff;
 }
+
 
 /* Style the tab content */
+
 .tabcontent {
-  background-color: #fff;
-  float: left;
-  padding:0px;
-  border: 0px solid #ccc;
-  width: 84%;
-  border-left: none;
-  height: 100vh;
+    background-color: #fff;
+    float: left;
+    padding: 0px;
+    border: 0px solid #ccc;
+    width: 84%;
+    border-left: none;
+    height: 100vh;
 }
 
+
 /* Media query para diseño responsive*/
+
 @media (min-width: 500px) {
-  .tab button {
-    font-size: 16px;
-    padding: 7px;
-  }
-  .tab,
-  .tabcontent {
-    height: 91vh;
-  }
+    .tab button {
+        font-size: 16px;
+        padding: 7px;
+    }
+    .tab,
+    .tabcontent {
+        height: 91vh;
+    }
 }
+
 @media (min-width: 768px) {
-  .tab button {
-    font-size: 17px;
-    padding: 7px 16px;
-  }
-  .tab{
-    height: 100vh;
-  }
-  .tabcontent {
-    height: 100vh;
-    padding-top: 3rem;
-  }
+    .tab button {
+        font-size: 17px;
+        padding: 7px 16px;
+    }
+    .tab {
+        height: 100vh;
+    }
+    .tabcontent {
+        height: 100vh;
+        padding-top: 3rem;
+    }
 }
