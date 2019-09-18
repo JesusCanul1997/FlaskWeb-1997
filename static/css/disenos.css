@@ -1,10 +1,10 @@
 .tab {
     float: left;
-    border-right: 2px solid rgba(15, 2, 41, 0.351);
     border-left: none;
     background-color: #f1f1f1;
-    width: 14%;
+    width: 20%;
     height: 100vh;
+    overflow: auto;
 }
 
 
@@ -47,10 +47,11 @@
     background-color: #fff;
     float: left;
     padding: 0px;
-    border: 0px solid #ccc;
-    width: 84%;
-    border-left: none;
+    width: 80%;
     height: 100vh;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    overflow-y: scroll;
 }
 
 
@@ -61,9 +62,11 @@
         font-size: 16px;
         padding: 7px;
     }
-    .tab,
+    .tab {
+        height: 100vh;
+    }
     .tabcontent {
-        height: 91vh;
+        height: 100vh;
     }
 }
 
@@ -74,9 +77,12 @@
     }
     .tab {
         height: 100vh;
+        overflow: auto;
+        width: 15%;
     }
     .tabcontent {
         height: 100vh;
+        width: 85%;
         padding-top: 3rem;
     }
 }
